@@ -13,7 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package()
 
 # Install Python scripts
-catkin_install_python(PROGRAMS scripts/your_script.py
+catkin_install_python(PROGRAMS scripts/visualize_block_pose.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
